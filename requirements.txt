@@ -1,0 +1,24 @@
+# 🎤 실시간 PCM STT 시스템 - 필수 의존성
+
+# 웹 서버 및 API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+python-multipart==0.0.6
+
+# Google Cloud Speech-to-Text v2
+google-cloud-speech==2.33.0
+grpcio==1.66.2
+grpcio-status==1.66.2
+google-auth==2.40.3
+google-oauth2-tool==0.0.3
+
+# 기본 라이브러리 
+aiofiles==23.2.1
+pydantic==2.11.9
+
+# 설치 방법:
+# pip install -r requirements.txt
+
+# 검증 방법:
+# python -c "import fastapi, uvicorn, google.cloud.speech_v2; print('✅ 모든 패키지 설치 완료')"
